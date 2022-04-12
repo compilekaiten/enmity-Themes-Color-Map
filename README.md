@@ -9,7 +9,7 @@ If you have any new findings you want listed here, contact me on discord.
 * Many Properties __overlap__ each other. Some compromises have to be made when themeing.
 
 ## **Format**
-> Check the example template here: 
+> [Check the example template here](example.json)
 ```json 
 "theme_color_map": {
     "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
