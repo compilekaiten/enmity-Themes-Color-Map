@@ -82,7 +82,7 @@ THEME COLOR MAP INFO
 | PRIMARY_DARK_100 | Popup Header? Text (Enmity Apply), Search/Type Cursor color |
 | PRIMARY_DARK_300 | Grabber Color, ? Glyph Color, No Pinned messages text, Channel Settings channel name, Connections text |
 | PRIMARY_DARK_360 | Unselected, Unmuted, Read Channel Name text |
-| PRIMARY_DARK_400 | Different Day Message seperator, Search tab subtext, 2FA text |
+| PRIMARY_DARK_400 | Different Day Message seperator, Search tab subtext, 2FA text, 'New Unreads' banner |
 | PRIMARY_DARK_500 | Invite Button background, User Watch Live button, Default (grey) Role circle color, "Public" server button |
 | PRIMARY_DARK_600 | Chat Input Border Background fill, Global? pop up background |
 | PRIMARY_DARK_630 | Hold/Click on message background, Slash Command background, Search in Channel background, Spotify Now playing scrubber bar |
