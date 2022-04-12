@@ -1,4 +1,4 @@
-#THEME COLOR MAP INFO
+THEME COLOR MAP INFO
 
 | Properties | Description |
 | ---------------|---------------|
