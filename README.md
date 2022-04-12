@@ -78,4 +78,13 @@ THEME COLOR MAP INFO
 | TEXT_POSITIVE | ??? |
 | TEXT_WARNING | ??? |
 | |
-| PRIMARY_DARK | Popup seperators?, Profile notes text
+| PRIMARY_DARK | Popup seperators?, Profile notes text |
+| PRIMARY_DARK_100 | Popup Header? Text (Enmity Apply), Search/Type Cursor color |
+| PRIMARY_DARK_300 | Grabber Color, ? Glyph Color, No Pinned messages text, Channel Settings channel name, Connections text |
+| PRIMARY_DARK_360 | Unselected, Unmuted, Read Channel Name text |
+| PRIMARY_DARK_400 | Different Day Message seperator, Search tab subtext, 2FA text |
+| PRIMARY_DARK_500 | Invite Button background, User Watch Live button, Default (grey) Role circle color, "Public" server button |
+| PRIMARY_DARK_600 | Chat Input Border Background fill, Global? pop up background |
+| PRIMARY_DARK_630 | Hold/Click on message background, Slash Command background, Search in Channel background, Spotify Now playing scrubber bar |
+| PRIMARY_DARK_700 | Role Background color, Top and Bottom Bar Seperators, Global Toast background, Side of screen flashes this color when moving to new pages ??? |
+| PRIMARY_DARK_800 | The Entire Bottom bar (and homebar) [Discord Icon, People Icon, Profile, etc.], Tints GIF categories in search |
