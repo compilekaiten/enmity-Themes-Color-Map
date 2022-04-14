@@ -91,7 +91,6 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 | PRIMARY_DARK_800 | The Entire Bottom bar (and homebar) [Discord Icon, People Icon, Profile, etc.], Tints GIF categories in search |
 | BRAND_NEW | Direct Message Button background (top left), New Message Top Baner, Floating New Banner progress bar, Global Switcher Color, Send Button |
 | BRAND_NEW_360 | Random Nitro stuff. Who cares |
-<<<<<<< HEAD
 | WHITE | Global Cursor, DMs username text, Add Files button colors, GIF text, Send button glyph, Server Name and 3 dots text, Invite Text, Role Text color, Video/Picture controls, Channel Search text |
 | STATUS_RED/GREEN/YELLOW/GREY/ORANGE 100-900 | Various colored elements like logout text, security text. Pain in the ass. good luck |
 
@@ -403,3 +402,5 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 | GITHUB | ??? |
 | TRANSPARENT | ??? |
 </details>
+
+[Back to Top](#)
