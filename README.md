@@ -12,6 +12,8 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
       - [Text Colors](#text-colors)
   - [**"colors" object**](#colors-object)
       - [Colors used throughout Discord](#colors-used-throughout-discord)
+  - [**"unsafe_colors" object**](#unsafe_colors-object)
+      - [Used to theme the annoying grey bottom bar (homebar area)](#used-to-theme-the-annoying-grey-bottom-bar-homebar-area)
   - [**Unknowns**](#unknowns)
       - [**Long** ass list of unknown properties.](#long-ass-list-of-unknown-properties)
       - [**"theme_color_map" object unknown**](#theme_color_map-object-unknown)
@@ -31,7 +33,10 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 },
 "colours": {
     "PRIMARY_DARK": "#0F0FFF",
- }
+ }.
+"unsafe_colors": {
+    "CHAT_GREY": "#000000"
+}
 ```
 - - - -
 
@@ -42,6 +47,7 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 
 | Property | Description |
 | --------------- | :---------------: |
+| KEYBOARD | Color to theme keyboard in an upcoming Enmity update |
 | BACKGROUND_PRIMARY | Background (Search, Mentions, Channel, Channel Info, Invite UI, Set Status, User List, Threads, Notifications, Behind the keyboard *looks sick yo*) |
 | BACKGROUND_SECONDARY | Profile background, Server info background, Slash Command Top bar, Button Backgrounds (Server List, Reactions), Embed Background, Code Blocks, Call background in chat |
 | BACKGROUND_SECONDARY_ALT | Profile Notes background, About Me background, Embed Background, Reactions Background, Message Input Background, Missed Call/etc |
@@ -93,6 +99,14 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 | BRAND_NEW_360 | Random Nitro stuff. Who cares |
 | WHITE | Global Cursor, DMs username text, Add Files button colors, GIF text, Send button glyph, Server Name and 3 dots text, Invite Text, Role Text color, Video/Picture controls, Channel Search text |
 | STATUS_RED/GREEN/YELLOW/GREY/ORANGE 100-900 | Various colored elements like logout text, security text. Pain in the ass. good luck |
+
+## **"unsafe_colors" object**
+[Back to Top](#)
+#### Used to theme the annoying grey bottom bar (homebar area)
+
+| Property | Description |
+| --------------- | :---------------: |
+| CHAT_GREY | cmon man. you know... the thing |
 
 ## **Unknowns**
 [Back to Top](#)

@@ -1,6 +1,7 @@
 {
 	"name": "example",
 	"theme_color_map": {
+		"KEYBOARD": ["#000000", "#FFFFFF"],
 		"BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
 		"BACKGROUND_SECONDARY": ["#000000", "#FFFFFF"],
 		"BACKGROUND_SECONDARY_ALT": ["#000000", "#FFFFFF"],
@@ -28,7 +29,6 @@
 	"colours": {
 		"PRIMARY_DARK": "#FFFFFF",
 		"PRIMARY_DARK_100": "#FFFFFF",
-		"PRIMARY_DARK_200": "#FFFFFF",
 		"PRIMARY_DARK_300": "#FFFFFF",
 		"PRIMARY_DARK_360": "#FFFFFF",
 		"PRIMARY_DARK_400": "#FFFFFF",
@@ -37,6 +37,10 @@
 		"PRIMARY_DARK_630": "#FFFFFF",
 		"PRIMARY_DARK_700": "#FFFFFF",
 		"PRIMARY_DARK_800": "#FFFFFF",
-		"PRIMARY_DARK_900": "#FFFFFF"
+		"BRAND_NEW": "#FFFFFF",
+		"WHITE": "#FFFFFF"
+	},
+	"unsafe_colors": {
+		"CHAT_GREY": "#000000"
 	}
 }
