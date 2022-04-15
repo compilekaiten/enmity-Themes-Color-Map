@@ -54,6 +54,7 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 | BACKGROUND_TERTIARY | Background background BACKGROUND (server list and around things), Search bar background, spoilers, Top bar seperator, About me and Notes outline, three dots button |
 | BACKGROUND_ACCENT | Reply Pipe, Album Buttons, Thread Buttons, Flashes this color when some stuff loads |
 | BACKGROUND_FLOATING | Profile background, Server Boost Page Icons |
+| BACKGROUND_NESTED_FLOATING | Settings buttons/boxes background |
 | BACKGROUND_MOBILE_PRIMARY | Account/Settings background |
 | BACKGROUND_MOBILE_SECONDARY | Channel List/DM Background, Header App Wide |
 | BACKGROUND_MODIFIER_ACCENT | Seperators (Server List Top, Bottom Bar, User List, Notifications, Friends, Search, Settings) |
