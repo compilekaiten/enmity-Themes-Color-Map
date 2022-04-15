@@ -33,7 +33,7 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 },
 "colours": {
     "PRIMARY_DARK": "#0F0FFF",
- }.
+ },
 "unsafe_colors": {
     "CHAT_GREY": "#000000"
 }
