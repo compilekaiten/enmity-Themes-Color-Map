@@ -48,6 +48,7 @@ Example:
 },
 "colours": {
     "PRIMARY_DARK": "#0F0FFF",
+    "BRAND_NEW": "transparent",
  },
 "unsafe_colors": {
     "CHAT_GREY": "#000000"
