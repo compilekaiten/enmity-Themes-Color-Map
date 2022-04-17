@@ -47,37 +47,35 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 
 | Property | Description |
 | --------------- | :---------------: |
-| KEYBOARD | Color to theme keyboard in an upcoming Enmity update |
-| BACKGROUND_PRIMARY | Background (Search, Mentions, Channel, Channel Info, Invite UI, Set Status, User List, Threads, Notifications, Behind the keyboard *looks sick yo*) |
-| BACKGROUND_SECONDARY | Profile background, Server info background, Slash Command Top bar, Button Backgrounds (Server List, Reactions), Embed Background, Code Blocks, Call background in chat |
-| BACKGROUND_SECONDARY_ALT | Profile Notes background, About Me background, Embed Background, Reactions Background, Message Input Background, Missed Call/etc |
-| BACKGROUND_TERTIARY | Background background BACKGROUND (server list and around things), Search bar background, spoilers, Top bar seperator, About me and Notes outline, three dots button |
-| BACKGROUND_ACCENT | Reply Pipe, Album Buttons, Thread Buttons, Flashes this color when some stuff loads |
-| BACKGROUND_FLOATING | Top part of Profile bacgkround, Server Boost Page Icons |
+| KEYBOARD | Global keyboard background color |
+| BACKGROUND_PRIMARY | Main Chat Background [DMs, Channels, User List, Friends Tab, Search Tab, Mentions Tab], User Options Boxes Background [Mutual Servers, Friends, etc], Any pop up options boxes background |
+| BACKGROUND_SECONDARY | Top Left button background, Join Server Button Background, Friends Call and Message button background, Missed Call Background, Codeblock background, Profile Bottom background, Server Info Bottom background, Reactions background, Embed Background, Slash Command Top bar, @user background, Emoji/GIF/Sticker Picker background |
+| BACKGROUND_SECONDARY_ALT | Profile Notes background, About Me background, Chat Input background [Add Files, Gift Buttons], Emoji/GIF/Sticker slider background |
+| BACKGROUND_TERTIARY | Global Border background when elements are slide out [Server List, User List], Search Bar background, Profile [About Me and Notes outline], Spoilers background, Top bar seperator when in channel, Settings options boxes seperator, Three Dots Button [Profiles, Search] |
+| BACKGROUND_ACCENT | Reply Pipe, Edit user Profile button, Album Buttons, Thread Buttons, Sometimes flashes this color when stuff loads |
+| BACKGROUND_FLOATING | Profile Top background, Server Boost Page Icons |
 | BACKGROUND_NESTED_FLOATING | Settings buttons/boxes background |
 | BACKGROUND_MOBILE_PRIMARY | Account/Settings background |
-| BACKGROUND_MOBILE_SECONDARY | Channel List/DM Background, Header App Wide |
-| BACKGROUND_MODIFIER_ACCENT | Seperators (Server List Top, Bottom Bar, User List, Notifications, Friends, Search, Settings) |
-| BACKGROUND_MODIFIER_ACTIVE | When holding/clicking on a button |
-| BACKGROUND_MODIFIER_SELECTED | Selected Channel/User background |
-| CHANNELS_DEFAULT | Category titles, User list names |
-| HEADER_PRIMARY | Top Bar (Server Name, Channel Name, User Name, Follow channel text, Invite members text, Profile Name text, slash command text, mention channel name text, Pop up text [add theme]) |
-| HEADER_SECONDARY | Some titles, Most subtitles (channel info, user now playing, etc), Profile #'s, Settings titles |
-| INTERACTIVE_ACTIVE | Active bottom bar icon fill, Selected server bar, Selected channel text, some title text |
+| BACKGROUND_MOBILE_SECONDARY | Channel List/DM Background, Global Header Color, User Status [Online, Away, DND, Offline] Background in chat input |
+| BACKGROUND_MODIFIER_ACCENT | Seperators [Server List Top, Bottom Bar, Server Info, User List, User Info, @,  Notifications, Friends, Search, Settings] |
+| BACKGROUND_MODIFIER_ACTIVE | Background color when clicking/holding a button [DM User, Channel, Server, Rectangle Buttons] |
+| BACKGROUND_MODIFIER_SELECTED | Background color of selected User or Channel |
+| CHANNELS_DEFAULT | Unselected DM User text color[including status], Server Category text color |
+| HEADER_PRIMARY | Top Bar Text Color [Direct Messages, DM User name, Server Name, Channel name, User list, Friends Tab, Mentions Tab & channel name text, Settings titles], Server Info Name, User info name, Follow channels text, Invite members text, slash command text, Some pop-up text (add theme) |
+| HEADER_SECONDARY | User Discord ID #s, User Text [Connections, About me, Notes], Server description [online and member count], User list status text [Listening, playing, etc], User list subtitles, Slash Command subtitles, Search titles, Most settings titles |
+| INTERACTIVE_ACTIVE | Selected Server bar, Selected user text DMs, Selected Channel text, Unread Channel text and dot, @ user name text, # channel text, bottom bar icon fill, some random titles |
 | INTERACTIVE_MUTED | Unselected muted channel text, block quote bar |
-| INTERACTIVE_NORMAL | Button/glyph Accent colors (Top bar, Server Settings, Channel Settings, Member list roles, User settings, input bar, chevrons), Bottom bar inactive color fill, incoming typing member text |
-| ACTIVITY_CARD_BACKGROUND | New Messages Seperator (always red?) |
-| TEXTBOX_MARKDOWN_SYNTAX | Markdown text background? |
+| INTERACTIVE_NORMAL | Button/Glyph accent colors [Top left button glyph, 3 bars, Call, Video, User list], User list [Threads, Pins, Notifs, Settings, Role names], User Info [Message, Call, Video], Server Info [Boost Text, Invite, Notifs], Channel [Search, User list, Add Files, Gift, Emoji buttons, add reactions], Slash Command title, Emoji bottom bar glyph color, # channel glyphs], bottom bar inactive icon fill, incoming typing member text |
 
 #### Text Colors
 > Properties that theme most text colors
 
 | Property | Description |
 | --------------- | :---------------: |
-| TEXT_DANGER | Enmity Uninstall text |
+| TEXT_DANGER | Enmity Theme/Plugin Uninstall text |
 | TEXT_LINK | Link text global |
-| TEXT_MUTED | Search bar text, Timestamp text, Input box text, Symbols (@, lock, # [except muted channels]), bunch of settings subtitles |
-| TEXT_NORMAL | Text color like everywhere |
+| TEXT_MUTED | Search bar text, timestamp, chat input text, @ user #id, Slash command owner text, Symbols [@, Lock, # (except muted channels)], various subtitles [settings, server info], Emoji/GIF/Stickers slider text |
+| TEXT_NORMAL | Global text color [DMs, Channels, Typing text, Server info boxes text, User info boxes text, Settings text] |
 
 ## **"colors" object**
 [Back to Top](#)
@@ -86,19 +84,19 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 
 | Property | Description |
 | --------------- | :---------------: |
-| PRIMARY_DARK | Popup seperators?, Profile notes text |
-| PRIMARY_DARK_100 | Popup Header? Text (Enmity Apply), Search/Type Cursor color |
+| PRIMARY_DARK | Profile Notes text, Popup box seperators |
+| PRIMARY_DARK_100 | Popup text color [Enmity Apply], Search bar cursor color |
 | PRIMARY_DARK_300 | Grabber Color, ? Glyph Color, No Pinned messages text, Channel Settings channel name, Connections text |
-| PRIMARY_DARK_360 | Unselected, Unmuted, Read Channel Name text |
-| PRIMARY_DARK_400 | Different Day Message seperator, Search tab subtext, 2FA text, 'New Unreads' banner |
+| PRIMARY_DARK_360 | Unselected and unread and unmuted channel name text |
+| PRIMARY_DARK_400 | Different Day Message seperator, Search tab subtext, 2FA text, 'New Unreads' banner, @ user name text color |
 | PRIMARY_DARK_500 | Invite Button background, User Watch Live button, Default (grey) Role circle color, "Public" server button |
-| PRIMARY_DARK_600 | Chat Input Border Background fill, Global? pop up background |
+| PRIMARY_DARK_600 | Chat Input Border Background fill, Global? pop up background [Enmity apply] |
 | PRIMARY_DARK_630 | Hold/Click on message background, Slash Command background, Search in Channel background, Spotify Now playing scrubber bar |
-| PRIMARY_DARK_700 | Role Background color, Top and Bottom Bar Seperators, Global Toast background, Side of screen flashes this color when moving to new pages ??? |
+| PRIMARY_DARK_700 | Top and Bottom bar Seperators, Global Toast Background, Role Background color, Side of screen flashes this color sometimes ??? |
 | PRIMARY_DARK_800 | The Entire Bottom bar (and homebar) [Discord Icon, People Icon, Profile, etc.], Tints GIF categories in search |
-| BRAND_NEW | Direct Message Button background (top left), New Message Top Baner, Floating New Banner progress bar, Global Switcher Color, Send Button |
+| BRAND_NEW | Top left button background, New message Top banner, Floating new message banner progress bar, Global Switch color, Send button background, bot tag background, add to server button |
 | BRAND_NEW_360 | Random Nitro stuff. Who cares |
-| WHITE | Global Cursor, DMs username text, Add Files button colors, GIF text, Send button glyph, Server Name and 3 dots text, Invite Text, Role Text color, Video/Picture controls, Channel Search text |
+| WHITE | Top Left button icon fill, DMs username text, Server invite button text, No Role or default color role (grey) username color, User profile role text color, global spinners, Send button glyph, global cursor color, bot tag text color, add files button text color, GIF text, server with banner text and 3 dots, public server text, channel search text, (edited text subscript), follow channel text color |
 | STATUS_RED/GREEN/YELLOW/GREY/ORANGE 100-900 | Various colored elements like logout text, security text. Pain in the ass. good luck |
 
 ## **"unsafe_colors" object**
@@ -107,7 +105,7 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 
 | Property | Description |
 | --------------- | :---------------: |
-| CHAT_GREY | cmon man. you know... the thing |
+| CHAT_GREY | homebar annoying ass grey bar color |
 
 ## **Unknowns**
 [Back to Top](#)
