@@ -10,7 +10,7 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
   - [**"theme_color_map" object**](#theme_color_map-object)
       - [Background Properties](#background-properties)
       - [Text Colors](#text-colors)
-  - [**"colors" object**](#colors-object)
+  - [**"colours" object**](#colours-object)
       - [Colors used throughout Discord](#colors-used-throughout-discord)
   - [**"unsafe_colors" object**](#unsafe_colors-object)
       - [Used to theme the annoying grey bottom bar (homebar area)](#used-to-theme-the-annoying-grey-bottom-bar-homebar-area)
@@ -27,8 +27,8 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 ## **Format**
 > [Check the example template here](example.json)
 
-> [A JSON Schema created by beerpiss, is available here](https://github.com/beerpiss/enmity-theme-schema/blob/trunk/enmity-theme.schema.json)
->> [If you would like to do Schema Testing, the full repo is availble here](https://github.com/beerpiss/enmity-theme-schema)
+> [A JSON Schema created by beerpiss, is available here](https://beerpiss.github.io/enmity-theme-schema/enmity-theme.schema.json)
+>> [Human readable Schema Doc Page](https://beerpiss.github.io/enmity-theme-schema/)
 
 Color codes inside the `theme_color_map` and `colours` object can be the following:
 * 6 character HEX --> `#RRGGBB`
@@ -92,7 +92,7 @@ Example:
 | TEXT_MUTED | Search bar text, timestamp, chat input text, @ user #id, Slash command owner text, Symbols [@, Lock, # (except muted channels)], various subtitles [settings, server info], Emoji/GIF/Stickers slider text |
 | TEXT_NORMAL | Global text color [DMs, Channels, Typing text, Server info boxes text, User info boxes text, Settings text] |
 
-## **"colors" object**
+## **"colours" object**
 [Back to Top](#)
 #### Colors used throughout Discord
 > Some Properties overlap with the color map.
