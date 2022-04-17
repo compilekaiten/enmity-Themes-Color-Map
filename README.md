@@ -20,16 +20,31 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
       - [**"colors" object unknown**](#colors-object-unknown)
 
 ## **Details**
-* This a _semi-organized_ and _incomplete_ list of the iOS Discord Theme Color Map.
+* This a _semi-organized_ list of the iOS Discord Theme Color Map.
 
 * Many Properties __overlap__ each other. Some compromises have to be made when themeing.
 
 ## **Format**
 > [Check the example template here](example.json)
+
+> [A JSON Schema created by beerpiss, is available here](https://github.com/beerpiss/enmity-theme-schema/blob/trunk/enmity-theme.schema.json)
+>> [If you would like to do Schema Testing, the full repo is availble here](https://github.com/beerpiss/enmity-theme-schema)
+
+Color codes inside the `theme_color_map` and `colours` object can be the following:
+* 6 character HEX --> `#RRGGBB`
+  * Enmity can also take 8 character HEX --> `#RRGGBBAA`, but the ALPHA value is ignored
+* CSS rgba() --> `rgba(0, 0, 0, 1)`
+  * **[ ! ]** `rbga()` needs to follow the above format exactly. You **cannot** use `rgba(r g b a)` or `rgba(r g b / a)`
+* A `transparent` string can also be used
+  
+* `theme_color_map` keys have two values, seperated by a comma. One for Dark Mode, and one for Light Mode. **Both must be present!**
+
+Example:
 ```json 
 "theme_color_map": {
     "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
                          //Dark Mode , //Light Mode
+    "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 1)", "rgba(255, 255, 255, 1)"],
 },
 "colours": {
     "PRIMARY_DARK": "#0F0FFF",
