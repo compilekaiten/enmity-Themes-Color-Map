@@ -30,6 +30,9 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 > [A JSON Schema created by beerpiss, is available here](https://beerpiss.github.io/enmity-theme-schema/enmity-theme.schema.json)
 >> [Human readable Schema Doc Page](https://beerpiss.github.io/enmity-theme-schema/)
 
+The `name` string *MUST* match your final filename.
+  - `"name": "example",` === `example.json`
+
 Color codes inside the `theme_color_map` and `colours` object can be the following:
 * 6 character HEX --> `#RRGGBB`
   * Enmity can also take 8 character HEX --> `#RRGGBBAA`, but the ALPHA value is ignored
@@ -40,7 +43,10 @@ Color codes inside the `theme_color_map` and `colours` object can be the followi
 * `theme_color_map` keys have two values, seperated by a comma. One for Dark Mode, and one for Light Mode. **Both must be present!**
 
 Example:
-```json 
+```json
+{
+"name": "example",
+"author": "ur_mom#42069",
 "theme_color_map": {
     "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
                          //Dark Mode , //Light Mode
@@ -52,6 +58,7 @@ Example:
  },
 "unsafe_colors": {
     "CHAT_GREY": "#000000"
+}
 }
 ```
 - - - -
