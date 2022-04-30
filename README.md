@@ -30,34 +30,56 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 > [A JSON Schema created by beerpiss, is available here](https://beerpiss.github.io/enmity-theme-schema/enmity-theme.schema.json)
 >> [Human readable Schema Doc Page](https://beerpiss.github.io/enmity-theme-schema/)
 
-The `name` string *MUST* match your final filename.
+The `name` string is case sensitive, and *MUST* match your final filename.
   - `"name": "example",` === `example.json`
+
+Strings inside the `authors` object should be the following:
+* `name` --> The name you want displayed in Enmity's Theme Settings
+* `id` --> Your **Unique** discord ID. Google how to get it.
+
+The `background` object can have the following values:
+* `blur` --> Integer between 0 - 20
+* `url` --> The Direct URL to your background image. Leave blank for no image background
+* `alpha` --> Integer value
+
+`theme_color_map` keys have two values, seperated by a comma. One for Dark Mode, and one for Light Mode. **Both must be present!**
 
 Color codes inside the `theme_color_map` and `colours` object can be the following:
 * 6 character HEX --> `#RRGGBB`
   * Enmity can also take 8 character HEX --> `#RRGGBBAA`, but the ALPHA value is ignored
-* CSS rgba() --> `rgba(0, 0, 0, 1)`
+* CSS `rgba()` --> `rgba(0, 0, 0, 1)`
   * **[ ! ]** `rbga()` needs to follow the above format exactly. You **cannot** use `rgba(r g b a)` or `rgba(r g b / a)`
 * A `transparent` string can also be used
-  
-* `theme_color_map` keys have two values, seperated by a comma. One for Dark Mode, and one for Light Mode. **Both must be present!**
 
 Example:
 ```json
 {
 "name": "example",
 "author": "ur_mom#42069",
+"version": "4.2.0",
+"description": "Ugly ass theme... Now with BLUR!",
+"authors": [
+  {
+    "name": "NEO",
+    "id": "424806150702366723"
+  }
+],
+"background": {
+    "blur": "1",
+	"url": "https://i.imgur.com/sEkjODE.jpeg",
+	"alpha": "0.69"
+},
 "theme_color_map": {
-    "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
-                         //Dark Mode , //Light Mode
-    "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 1)", "rgba(255, 255, 255, 1)"],
+  "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
+                      //Dark Mode , //Light Mode
+  "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 1)", "rgba(255, 255, 255, 1)"],
 },
 "colours": {
-    "PRIMARY_DARK": "#0F0FFF",
-    "BRAND_NEW": "transparent",
+  "PRIMARY_DARK": "#0F0FFF",
+  "BRAND_NEW": "transparent",
  },
 "unsafe_colors": {
-    "CHAT_GREY": "#000000"
+  "CHAT_GREY": "#000000"
 }
 }
 ```
