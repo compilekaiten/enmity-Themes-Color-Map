@@ -1,5 +1,9 @@
 # Enmity Theme Color Map
-Created by: NEO#7154
+Document Compiled by: [NEO#7154]()
+
+Research: [sudo#1469](https://github.com/sudo9000)
+
+JSON Schema: [beerpsi#5270](https://github.com/beerpiss)
 
 If you want to contribute, please check the "Unknowns" section and see if you can find any of the properties.
 - - - -
@@ -7,22 +11,32 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
 - [Enmity Theme Color Map](#enmity-theme-color-map)
   - [**Details**](#details)
   - [**Format**](#format)
-  - [**"theme_color_map" object**](#theme_color_map-object)
+  - [**Theme `Information` Block**](#theme-information-block)
+      - [Information about your theme](#information-about-your-theme)
+  - [**`authors` object**](#authors-object)
+      - [Theme Authors Information](#theme-authors-information)
+  - [**`background` object**](#background-object)
+      - [Main Chat Background Images](#main-chat-background-images)
+  - [**`theme_color_map` object**](#theme_color_map-object)
       - [Background Properties](#background-properties)
       - [Text Colors](#text-colors)
-  - [**"colours" object**](#colours-object)
+  - [**`colours` object**](#colours-object)
       - [Colors used throughout Discord](#colors-used-throughout-discord)
-  - [**"unsafe_colors" object**](#unsafe_colors-object)
+  - [**`unsafe_colors` object**](#unsafe_colors-object)
       - [Used to theme the annoying grey bottom bar (homebar area)](#used-to-theme-the-annoying-grey-bottom-bar-homebar-area)
-  - [**Unknowns**](#unknowns)
+  - [**`Unknowns`**](#unknowns)
       - [**Long** ass list of unknown properties.](#long-ass-list-of-unknown-properties)
-      - [**"theme_color_map" object unknown**](#theme_color_map-object-unknown)
-      - [**"colors" object unknown**](#colors-object-unknown)
+      - [**`theme_color_map` object unknown**](#theme_color_map-object-unknown)
+      - [**`colors` object unknown**](#colors-object-unknown)
+  
+- - - -
 
 ## **Details**
 * This a _semi-organized_ list of the iOS Discord Theme Color Map.
 
 * Many Properties __overlap__ each other. Some compromises have to be made when themeing.
+
+- - - -
 
 ## **Format**
 > [Check the example template here](example.json)
@@ -85,7 +99,46 @@ Example:
 ```
 - - - -
 
-## **"theme_color_map" object**
+## **Theme `Information` Block**
+[Back to Top](#)
+#### Information about your theme
+> General Information About your Theme
+
+| Property        | Description       |
+| --------------- | :---------------: |
+| name            | Theme Name        |
+| author          | Theme Author Name |
+| version         | Versioning        |
+| description     | Short Theme Description |
+
+- - - -
+
+## **`authors` object**
+[Back to Top](#)
+#### Theme Authors Information
+> Theme Author information. Used in Enmity's Theme Settings
+> 
+| Property        | Description       |
+| --------------- | :---------------: |
+| name            | Theme Author Name |
+| id              | Your unique Discord ID |
+
+- - - -
+
+## **`background` object**
+[Back to Top](#)
+#### Main Chat Background Images
+> Customize custom theme background images
+> 
+| Property        | Description       |
+| --------------- | :---------------: |
+| blur            | Blur Amount to apply to the image |
+| url             | Direct URL to image |
+| alpha           | Alpha value to apply to the image |
+
+- - - -
+
+## **`theme_color_map` object**
 [Back to Top](#)
 #### Background Properties
 > Properties that theme most background elements
@@ -122,7 +175,8 @@ Example:
 | TEXT_MUTED | Search bar text, timestamp, chat input text, @ user #id, Slash command owner text, Symbols [@, Lock, # (except muted channels)], various subtitles [settings, server info], Emoji/GIF/Stickers slider text |
 | TEXT_NORMAL | Global text color [DMs, Channels, Typing text, Server info boxes text, User info boxes text, Settings text] |
 
-## **"colours" object**
+## **`colours` object**
+
 [Back to Top](#)
 #### Colors used throughout Discord
 > Some Properties overlap with the color map.
@@ -142,9 +196,10 @@ Example:
 | BRAND_NEW | Top left button background, New message Top banner, Floating new message banner progress bar, Global Switch color, Send button background, bot tag background, add to server button |
 | BRAND_NEW_360 | Random Nitro stuff. Who cares |
 | WHITE | Top Left button icon fill, DMs username text, Server invite button text, No Role or default color role (grey) username color, User profile role text color, global spinners, Send button glyph, global cursor color, bot tag text color, add files button text color, GIF text, server with banner text and 3 dots, public server text, channel search text, (edited text subscript), follow channel text color |
-| STATUS_RED/GREEN/YELLOW/GREY/ORANGE 100-900 | Various colored elements like logout text, security text. Pain in the ass. good luck |
+| STATUS_YELLOW | Mentions Colors (Side Bar and Tint) |
+| STATUS_RED/GREEN/GREY/ORANGE 100-900 | Various colored elements like logout text, security text. Pain in the ass. good luck |
 
-## **"unsafe_colors" object**
+## **`unsafe_colors` object**
 [Back to Top](#)
 #### Used to theme the annoying grey bottom bar (homebar area)
 
@@ -152,7 +207,7 @@ Example:
 | --------------- | :---------------: |
 | CHAT_GREY | homebar annoying ass grey bar color |
 
-## **Unknowns**
+## **`Unknowns`**
 [Back to Top](#)
 #### **Long** ass list of unknown properties. 
 > Some of these just don't do anything, or I couldn't find what they changed.
@@ -162,7 +217,7 @@ Example:
 <details>
   <summary>Expand Me!</summary>
   
-  #### **"theme_color_map" object unknown**
+  #### **`theme_color_map` object unknown**
 | Property | Description |
 | --------------- | :---------------: |
 | TEXT_LINK_LOW_SATURATION | ??? |
@@ -218,7 +273,7 @@ Example:
 | DEPRECATED_TEXT_INPUT_BORDER_DISABLED | ??? |
 | DEPRECATED_TEXT_INPUT_PREFIX | ??? |
 
-#### **"colors" object unknown**
+#### **`colors` object unknown**
 
 | Property | Description |
 | --------------- | :---------------: |
