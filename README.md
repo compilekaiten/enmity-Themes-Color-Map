@@ -68,33 +68,33 @@ Color codes inside the `theme_color_map` and `colours` object can be the followi
 Example:
 ```json
 {
-"name": "example",
-"author": "ur_mom#42069",
-"version": "4.2.0",
-"description": "Ugly ass theme... Now with BLUR!",
-"authors": [
-  {
-    "name": "NEO",
-    "id": "424806150702366723"
+  "name": "example",
+  "version": "4.2.0",
+  "description": "Ugly ass theme... Now with BLUR!",
+  "color": "#FFFFFF",
+  "authors": [
+    {
+      "name": "NEO",
+      "id": "424806150702366723"
+    }
+  ],
+  "background": {
+    "blur": 1,
+    "url": "https://i.imgur.com/sEkjODE.jpeg",
+    "alpha": 0.69
+  },
+  "theme_color_map": {
+    "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
+                        //Dark Mode , //Light Mode
+    "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 1)", "rgba(255, 255, 255, 1)"],
+  },
+  "colours": {
+    "PRIMARY_DARK": "#0F0FFF",
+    "BRAND_NEW": "transparent",
+  },
+  "unsafe_colors": {
+    "CHAT_GREY": "#000000"
   }
-],
-"background": {
-    "blur": "1",
-	"url": "https://i.imgur.com/sEkjODE.jpeg",
-	"alpha": "0.69"
-},
-"theme_color_map": {
-  "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
-                      //Dark Mode , //Light Mode
-  "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 1)", "rgba(255, 255, 255, 1)"],
-},
-"colours": {
-  "PRIMARY_DARK": "#0F0FFF",
-  "BRAND_NEW": "transparent",
- },
-"unsafe_colors": {
-  "CHAT_GREY": "#000000"
-}
 }
 ```
 - - - -
@@ -105,11 +105,11 @@ Example:
 > General Information About your Theme
 
 | Property        | Description       |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | name            | Theme Name        |
-| author          | Theme Author Name |
 | version         | Versioning        |
 | description     | Short Theme Description |
+| color           | Enmity Settings Theme Color Bar |
 
 - - - -
 
@@ -119,7 +119,7 @@ Example:
 > Theme Author information. Used in Enmity's Theme Settings
 > 
 | Property        | Description       |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | name            | Theme Author Name |
 | id              | Your unique Discord ID |
 
@@ -144,7 +144,7 @@ Example:
 > Properties that theme most background elements
 
 | Property | Description |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | KEYBOARD | Global keyboard background color |
 | BACKGROUND_PRIMARY | Main Chat Background [DMs, Channels, User List, Friends Tab, Search Tab, Mentions Tab], User Options Boxes Background [Mutual Servers, Friends, etc], Any pop up options boxes background |
 | BACKGROUND_SECONDARY | Top Left button background, Join Server Button Background, Friends Call and Message button background, Missed Call Background, Codeblock background, Profile Bottom background, Server Info Bottom background, Reactions background, Embed Background, Slash Command Top bar, @user background, Emoji/GIF/Sticker Picker background |
@@ -169,11 +169,12 @@ Example:
 > Properties that theme most text colors
 
 | Property | Description |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | TEXT_DANGER | Enmity Theme/Plugin Uninstall text |
 | TEXT_LINK | Link text global |
 | TEXT_MUTED | Search bar text, timestamp, chat input text, @ user #id, Slash command owner text, Symbols [@, Lock, # (except muted channels)], various subtitles [settings, server info], Emoji/GIF/Stickers slider text |
 | TEXT_NORMAL | Global text color [DMs, Channels, Typing text, Server info boxes text, User info boxes text, Settings text] |
+| CHANNEL_ICON | Chat input text, Symbols [@, Lock, # (except muted channels)] |
 
 ## **`colours` object**
 
@@ -182,7 +183,7 @@ Example:
 > Some Properties overlap with the color map.
 
 | Property | Description |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | PRIMARY_DARK | Profile Notes text, Popup box seperators |
 | PRIMARY_DARK_100 | Popup text color [Enmity Apply], Search bar cursor color |
 | PRIMARY_DARK_300 | Grabber Color, ? Glyph Color, No Pinned messages text, Channel Settings channel name, Connections text |
@@ -204,7 +205,7 @@ Example:
 #### Used to theme the annoying grey bottom bar (homebar area)
 
 | Property | Description |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | CHAT_GREY | homebar annoying ass grey bar color |
 
 ## **`Unknowns`**
@@ -219,7 +220,7 @@ Example:
   
   #### **`theme_color_map` object unknown**
 | Property | Description |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | TEXT_LINK_LOW_SATURATION | ??? |
 | TEXT_POSITIVE | ??? |
 | TEXT_WARNING | ??? |
@@ -276,7 +277,7 @@ Example:
 #### **`colors` object unknown**
 
 | Property | Description |
-| --------------- | :---------------: |
+|:--------------- | :---------------: |
 | PRIMARY_LIGHT_100 | ??? |
 | PRIMARY_LIGHT_130 | ??? |
 | PRIMARY_LIGHT_160 | ??? |
