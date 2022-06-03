@@ -99,6 +99,10 @@ Example:
 ```
 - - - -
 
+# If you are confused by my medicore descriptions, I recommend you check out the theme [Bozo The Clown by Sudo](https://github.com/sudo9000/Enmity-Themes/blob/main/BozoTheClown.json). Each key has a different color, so it's easy to see what themes what.
+
+- - - -
+
 ## **Theme `Information` Block**
 [Back to Top](#)
 #### Information about your theme
@@ -147,7 +151,7 @@ Example:
 |:--------------- | :---------------: |
 | KEYBOARD | Global keyboard background color |
 | BACKGROUND_PRIMARY | Main Chat Background [DMs, Channels, User List, Friends Tab, Search Tab, Mentions Tab], User Options Boxes Background [Mutual Servers, Friends, etc], Any pop up options boxes background |
-| BACKGROUND_SECONDARY | Top Left button background, Join Server Button Background, Friends Call and Message button background, Missed Call Background, Codeblock background, Profile Bottom background, Server Info Bottom background, Reactions background, Embed Background, Slash Command Top bar, @user background, Emoji/GIF/Sticker Picker background |
+| BACKGROUND_SECONDARY | Top Left button background, Join Server Button Background, Friends Call and Message button background, Missed Call Background, Reply to Bar, Codeblock background, Profile Bottom background, Server Info Bottom background, Reactions background, Embed Background, Slash Command Top bar, @user background, Emoji/GIF/Sticker Picker background |
 | BACKGROUND_SECONDARY_ALT | Profile Notes background, About Me background, Chat Input background [Add Files, Gift Buttons], Emoji/GIF/Sticker slider background |
 | BACKGROUND_TERTIARY | Global Border background when elements are slide out [Server List, User List], Search Bar background, Profile [About Me and Notes outline], Spoilers background, Top bar seperator when in channel, Settings options boxes seperator, Three Dots Button [Profiles, Search] |
 | BACKGROUND_ACCENT | Reply Pipe, Edit user Profile button, Album Buttons, Thread Buttons, Sometimes flashes this color when stuff loads |
