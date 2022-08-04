@@ -1,4 +1,6 @@
 # Enmity Theme Color Map
+> This is updated for Discord **v138.0** and Enmity **v2.1.1**
+
 Document Compiled by: [NEO#7154]()
 
 Research: [sudo#1469](https://github.com/sudo9000)
@@ -25,7 +27,7 @@ If you want to contribute, please check the "Unknowns" section and see if you ca
   - [**`unsafe_colors` object**](#unsafe_colors-object)
       - [Used to theme the annoying grey bottom bar (homebar area)](#used-to-theme-the-annoying-grey-bottom-bar-homebar-area)
   - [**`Unknowns`**](#unknowns)
-      - [**Long** ass list of unknown properties.](#long-ass-list-of-unknown-properties)
+      - [**Long** list of unknown properties.](#long-list-of-unknown-properties)
       - [**`theme_color_map` object unknown**](#theme_color_map-object-unknown)
       - [**`colors` object unknown**](#colors-object-unknown)
   
@@ -70,7 +72,7 @@ Example:
 {
   "name": "example",
   "version": "4.2.0",
-  "description": "Ugly ass theme... Now with BLUR!",
+  "description": "Ugly theme... Now with BLUR!",
   "color": "#FFFFFF",
   "authors": [
     {
@@ -201,8 +203,9 @@ Example:
 | BRAND_NEW | Top left button background, New message Top banner, Floating new message banner progress bar, Global Switch color, Send button background, bot tag background, add to server button |
 | BRAND_NEW_360 | Random Nitro stuff. Who cares |
 | WHITE | Top Left button icon fill, DMs username text, Server invite button text, No Role or default color role (grey) username color, User profile role text color, global spinners, Send button glyph, global cursor color, bot tag text color, add files button text color, GIF text, server with banner text and 3 dots, public server text, channel search text, (edited text subscript), follow channel text color |
-| STATUS_YELLOW | Mentions Colors (Side Bar and Tint) |
-| STATUS_RED/GREEN/GREY/ORANGE 100-900 | Various colored elements like logout text, security text. Pain in the ass. good luck |
+| STATUS_GREEN_600 | Green Elements ( Create/Add Server Icon color, Nitro Settings Buttons) |
+| <s>STATUS_YELLOW</s> | <s>Mentions Colors (Side Bar and Tint)</s> Not hooked yet. Doesn't work |
+| STATUS_RED/GREEN/GREY/ORANGE 100-900 | Various colored elements like logout text, security text. *Many of These need to be hooked to work* |
 
 ## **`unsafe_colors` object**
 [Back to Top](#)
@@ -210,11 +213,11 @@ Example:
 
 | Property | Description |
 |:--------------- | :---------------: |
-| CHAT_GREY | homebar annoying ass grey bar color |
+| CHAT_GREY | Homebar grey bar |
 
 ## **`Unknowns`**
 [Back to Top](#)
-#### **Long** ass list of unknown properties. 
+#### **Long** list of unknown properties. 
 > Some of these just don't do anything, or I couldn't find what they changed.
 >> If you can figure these out, let me know
 
