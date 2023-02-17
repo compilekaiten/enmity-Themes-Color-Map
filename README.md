@@ -1,13 +1,20 @@
 # Enmity Theme Color Map
-> This is updated for Discord **v138.0** and Enmity **v2.1.1**
+> This is updated for Discord **v164.0** and Enmity **v2.1.4**
 
-Document Compiled by: [NEO#7154]()
+> This list will **NOT** work for Discord v165.0 or above. Wait for Enmity 3.0.
+
+Document Compiled by: [notNeo#4932]()
 
 Research: [sudo#1469](https://github.com/sudo9000)
 
 JSON Schema: [beerpsi#5270](https://github.com/beerpiss)
 
-If you want to contribute, please check the "Unknowns" section and see if you can find any of the properties.
+PR: [rens#3405](https://github.com/T7a9)
+
+- - - -
+
+### Please PR, if you have found any other keys/values/descriptions... i'm lazy
+
 - - - -
 
 - [Enmity Theme Color Map](#enmity-theme-color-map)
